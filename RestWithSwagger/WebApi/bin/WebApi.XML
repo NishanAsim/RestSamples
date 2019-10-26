@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.Controllers.ArithmeticOperationsController">
+            <summary>
+            Perform arithmetic operations
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ArithmeticOperationsController.#ctor">
+            <summary>
+            Performs arithmetic operations
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ArithmeticOperationsController.Add(System.Double,System.Double)">
+            <summary>
+            Calculate sum of two numbers
+            </summary>
+            <param name="firstOperand">The first number</param>
+            <param name="secondOperand">The second number</param>
+            <returns>Sum of two numbers</returns>
+        </member>
+        <member name="M:WebApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            Gets Weather Forecast Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:WebApi.WeatherForecast.Date">
+            <summary>
+            Statistics date
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>

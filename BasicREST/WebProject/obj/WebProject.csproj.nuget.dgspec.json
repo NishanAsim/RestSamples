@@ -4,6 +4,56 @@
     "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\WebProject\\WebProject.csproj": {}
   },
   "projects": {
+    "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\BasicLibrary\\BasicLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\BasicLibrary\\BasicLibrary.csproj",
+        "projectName": "BasicLibrary",
+        "projectPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\BasicLibrary\\BasicLibrary.csproj",
+        "packagesPath": "C:\\Users\\Nishan\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\BasicLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nishan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\WebProject\\WebProject.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -24,7 +74,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\BasicLibrary\\BasicLibrary.csproj": {
+                "projectPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\BasicREST\\BasicLibrary\\BasicLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -35,6 +89,20 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "NSwag.ApiDescription.Client": {
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

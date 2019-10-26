@@ -1,0 +1,8 @@
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\bin\Debug\netstandard2.1\BasicLibrary.deps.json
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\bin\Debug\netstandard2.1\BasicLibrary.dll
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\bin\Debug\netstandard2.1\BasicLibrary.pdb
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\obj\Debug\netstandard2.1\BasicLibrary.csprojAssemblyReference.cache
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\obj\Debug\netstandard2.1\BasicLibrary.AssemblyInfoInputs.cache
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\obj\Debug\netstandard2.1\BasicLibrary.AssemblyInfo.cs
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\obj\Debug\netstandard2.1\BasicLibrary.dll
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\BasicLibrary\obj\Debug\netstandard2.1\BasicLibrary.pdb

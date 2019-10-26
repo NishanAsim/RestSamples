@@ -16,3 +16,7 @@ D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\obj\Debug\netcoreapp3.0
 D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\obj\Debug\netcoreapp3.0\WebProject.RazorTargetAssemblyInfo.cache
 D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\obj\Debug\netcoreapp3.0\WebProject.dll
 D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\obj\Debug\netcoreapp3.0\WebProject.pdb
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\bin\Debug\netcoreapp3.0\BasicLibrary.dll
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\bin\Debug\netcoreapp3.0\BasicLibrary.pdb
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\obj\Debug\netcoreapp3.0\WebProject.csproj.CopyComplete
+D:\Code\GitHubPublic\REST Api Tests\BasicREST\WebProject\bin\Debug\netcoreapp3.0\OpenApi.json
