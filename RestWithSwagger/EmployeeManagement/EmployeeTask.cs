@@ -12,7 +12,8 @@ namespace EmployeeManagement
         /// Unique Id of the task
         /// </summary>
         /// <value></value>
-        public Guid TaskId { get; set; }
+        public Guid TaskId { get; private set; } = Guid.NewGuid();
+        
         /// <summary>
         /// Task description
         /// </summary>

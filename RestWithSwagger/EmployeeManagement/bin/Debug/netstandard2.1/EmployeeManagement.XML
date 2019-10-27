@@ -8,12 +8,20 @@
             <summary>
             Represents employee data
             </summary>
+            <summary>
+            Represents employee data
+            </summary>
         </member>
         <member name="P:EmployeeManagement.Employee.Code">
             <summary>
             Employee code
             </summary>
             <value></value>
+        </member>
+        <member name="P:EmployeeManagement.Employee.Type">
+            <summary>
+            Type of the employee
+            </summary>
         </member>
         <member name="P:EmployeeManagement.Employee.Name">
             <summary>
@@ -55,6 +63,44 @@
             <param name="employeeId">Employee Id</param>
             <returns>Gets an Employee object if found, null otherwise </returns>
         </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.Add(EmployeeManagement.Employee)">
+            <summary>
+            Adds a new employee data to employee list
+            </summary>
+            <param name="employee">Reference of the new employee object</param>
+            <returns>Reference of newly added employee object</returns>
+        </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.Update(System.String,EmployeeManagement.Employee)">
+            <summary>
+            Removes the a task from employee object
+            </summary>
+            <param name="employeeId"></param>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.Delete(System.String)">
+            <summary>
+            Deletes an employee data from the collection
+            </summary>
+            <param name="employeeId">Unique employee Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.AddTask(System.String,EmployeeManagement.EmployeeTask)">
+            <summary>
+            Adds a new task to the employee object
+            </summary>
+            <param name="employeeId"></param>
+            <param name="newTask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.RemoveTask(System.String,System.Guid)">
+            <summary>
+            Removes the a task from employee object
+            </summary>
+            <param name="employeeId"></param>
+            <param name="taskId"></param>
+            <returns></returns>
+        </member>
         <member name="T:EmployeeManagement.EmployeeTask">
             <summary>
             Represents a task
@@ -71,6 +117,31 @@
             Task description
             </summary>
             <value></value>
+        </member>
+        <member name="T:EmployeeManagement.EmployeeType">
+            <summary>
+            Employee type
+            </summary>
+        </member>
+        <member name="F:EmployeeManagement.EmployeeType.None">
+            <summary>
+            Not Defined
+            </summary>
+        </member>
+        <member name="F:EmployeeManagement.EmployeeType.Permanent">
+            <summary>
+            Permanent employee
+            </summary>
+        </member>
+        <member name="F:EmployeeManagement.EmployeeType.OnProbation">
+            <summary>
+            Employee on probation
+            </summary>
+        </member>
+        <member name="F:EmployeeManagement.EmployeeType.Contractual">
+            <summary>
+            On Contract
+            </summary>
         </member>
         <member name="T:EmployeeManagement.IEmployeeOperations">
             <summary>
@@ -89,6 +160,44 @@
             Gets a list of employee object
             </summary>
             <returns>List of employees</returns>
+        </member>
+        <member name="M:EmployeeManagement.IEmployeeOperations.Add(EmployeeManagement.Employee)">
+            <summary>
+            Adds a new employee data to employee list
+            </summary>
+            <param name="employee">Reference of the new employee object</param>
+            <returns>Reference of newly added employee object</returns>
+        </member>
+        <member name="M:EmployeeManagement.IEmployeeOperations.Update(System.String,EmployeeManagement.Employee)">
+            <summary>
+            Updates an existing employee object
+            </summary>
+            <param name="employeeId">Employee Id whose data to be updated</param>
+            <param name="employee">Reference of the object containing employee details</param>
+            <returns>Reference of an object containing updated data, null if employee not found</returns>
+        </member>
+        <member name="M:EmployeeManagement.IEmployeeOperations.Delete(System.String)">
+            <summary>
+            Deletes an employee data from the collection
+            </summary>
+            <param name="employeeId">Unique employee Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.IEmployeeOperations.AddTask(System.String,EmployeeManagement.EmployeeTask)">
+            <summary>
+            Adds a new task to the employee object
+            </summary>
+            <param name="employeeId"></param>
+            <param name="newTask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.IEmployeeOperations.RemoveTask(System.String,System.Guid)">
+            <summary>
+            Removes the a task from employee object
+            </summary>
+            <param name="employeeId"></param>
+            <param name="taskId"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

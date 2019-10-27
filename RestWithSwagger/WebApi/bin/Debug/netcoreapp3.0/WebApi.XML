@@ -42,6 +42,31 @@
             Gets details of the employee identified by employee Id
             </summary>
         </member>
+        <member name="M:WebApi.Controllers.EmployeeController.Post(EmployeeManagement.Employee,System.Threading.CancellationToken)">
+            <summary>
+            Gets list of all employees
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.Delete(System.String)">
+            <summary>
+            Gets details of the employee identified by employee Id
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.Update(System.String,EmployeeManagement.Employee)">
+            <summary>
+            Updates details of the employee identified by employee Id
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.Add(System.String,EmployeeManagement.EmployeeTask)">
+            <summary>
+            Adds a new task to the employee data
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.Remove(System.String,System.Guid)">
+            <summary>
+            Removes the task from the employee data
+            </summary>
+        </member>
         <member name="T:WebApi.Controllers.WeatherForecastController">
             <summary>
             Weather forecast controller
