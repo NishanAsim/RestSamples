@@ -57,6 +57,56 @@
         }
       }
     },
+    "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectName": "EmployeeManagement",
+        "projectPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj",
+        "packagesPath": "C:\\Users\\Nishan\\.nuget\\packages\\",
+        "outputPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nishan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -80,6 +130,9 @@
             "projectReferences": {
               "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj": {
                 "projectPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj"
+              },
+              "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj": {
+                "projectPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj"
               }
             }
           }

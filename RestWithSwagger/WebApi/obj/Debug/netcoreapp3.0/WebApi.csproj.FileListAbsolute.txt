@@ -20,6 +20,11 @@ D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.Core.dll
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.Generation.dll
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.Generation.AspNetCore.dll
+D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\ArithmeticLib.dll
+D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\EmployeeManagement.dll
+D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\ArithmeticLib.pdb
+D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\EmployeeManagement.pdb
+D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\EmployeeManagement.xml
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.csprojAssemblyReference.cache
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\staticwebassets\WebApi.StaticWebAssets.xml
@@ -31,5 +36,3 @@ D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.csproj.CopyComplete
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.dll
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.pdb
-D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\ArithmeticLib.dll
-D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\ArithmeticLib.pdb

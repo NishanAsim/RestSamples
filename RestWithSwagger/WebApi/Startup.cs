@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ArithmeticLib;
+using EmployeeManagement;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -22,12 +24,21 @@ namespace WebApi
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to add services to the container.
+        /// </summary>
+        /// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
             // Register the Swagger services
             services.AddSwaggerDocument();
+
+            // Add dependencies
+            services.AddSingleton<IArithmeticOperations, ArithmeticOperations>();
+            services.AddSingleton<IEmployeeOperations, EmployeeOperations>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,11 +51,11 @@ namespace WebApi
 
             app.UseHttpsRedirection();
 
-                       app.UseRouting();
+            app.UseRouting();
 
             app.UseAuthorization();
-            
-             // Register the Swagger generator and the Swagger UI middlewares
+
+            // Register the Swagger generator and the Swagger UI middlewares
             app.UseOpenApi();
             app.UseSwaggerUi3();
 
@@ -53,7 +64,7 @@ namespace WebApi
                 endpoints.MapControllers();
             });
 
-            
+
         }
     }
 }

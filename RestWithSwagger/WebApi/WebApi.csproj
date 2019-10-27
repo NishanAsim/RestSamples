@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArithmeticLib\ArithmeticLib.csproj" />
+    <ProjectReference Include="..\EmployeeManagement\EmployeeManagement.csproj" />
   </ItemGroup>
 
   <ItemGroup>

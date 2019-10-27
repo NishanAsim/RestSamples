@@ -9,7 +9,7 @@
             Perform arithmetic operations
             </summary>
         </member>
-        <member name="M:WebApi.Controllers.ArithmeticOperationsController.#ctor">
+        <member name="M:WebApi.Controllers.ArithmeticOperationsController.#ctor(ArithmeticLib.IArithmeticOperations)">
             <summary>
             Performs arithmetic operations
             </summary>
@@ -22,11 +22,37 @@
             <param name="secondOperand">The second number</param>
             <returns>Sum of two numbers</returns>
         </member>
+        <member name="T:WebApi.Controllers.EmployeeManagementController">
+            <summary>
+            Perform arithmetic operations
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeManagementController.#ctor(EmployeeManagement.IEmployeeOperations)">
+            <summary>
+            Performs arithmetic operations
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeManagementController.Get">
+            <summary>
+            Gets list of all employees
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeManagementController.Get(System.String)">
+            <summary>
+            Gets details of the employee identified by employee Id
+            </summary>
+        </member>
         <member name="M:WebApi.Controllers.WeatherForecastController.Get">
             <summary>
             Gets Weather Forecast Data
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
         </member>
         <member name="P:WebApi.WeatherForecast.Date">
             <summary>

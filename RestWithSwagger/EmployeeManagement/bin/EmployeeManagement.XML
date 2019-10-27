@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeManagement</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeManagement.Employee">
+            <summary>
+            Represents employee data
+            </summary>
+        </member>
+        <member name="P:EmployeeManagement.Employee.Code">
+            <summary>
+            Employee code
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:EmployeeManagement.Employee.Name">
+            <summary>
+            Employee name
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:EmployeeManagement.Employee.Note">
+            <summary>
+            Note on employee
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:EmployeeManagement.Employee.Tasks">
+            <summary>
+            List of open tasks assigned to employee
+            </summary>
+            <typeparam name="EmployeeTask"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:EmployeeManagement.EmployeeOperations">
+            <summary>
+            Performs operations on employee data
+            </summary>
+        </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.#ctor">
+            <summary>
+            Initializes a new instance of employee management object 
+            </summary>
+        </member>
+        <member name="T:EmployeeManagement.EmployeeTask">
+            <summary>
+            Represents a task
+            </summary>
+        </member>
+        <member name="P:EmployeeManagement.EmployeeTask.TaskId">
+            <summary>
+            Unique Id of the task
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:EmployeeManagement.EmployeeTask.Description">
+            <summary>
+            Task description
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>

@@ -1781,6 +1781,16 @@
         "runtime": {
           "bin/placeholder/ArithmeticLib.dll": {}
         }
+      },
+      "EmployeeManagement/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/EmployeeManagement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.dll": {}
+        }
       }
     }
   },
@@ -5850,11 +5860,17 @@
       "type": "project",
       "path": "../ArithmeticLib/ArithmeticLib.csproj",
       "msbuildProject": "../ArithmeticLib/ArithmeticLib.csproj"
+    },
+    "EmployeeManagement/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagement/EmployeeManagement.csproj",
+      "msbuildProject": "../EmployeeManagement/EmployeeManagement.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "ArithmeticLib >= 1.0.0",
+      "EmployeeManagement >= 1.0.0",
       "NSwag.AspNetCore >= 13.1.3"
     ]
   },
@@ -5884,6 +5900,9 @@
           "projectReferences": {
             "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj": {
               "projectPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj"
+            },
+            "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj": {
+              "projectPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj"
             }
           }
         }
