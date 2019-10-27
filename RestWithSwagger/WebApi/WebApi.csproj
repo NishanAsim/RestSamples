@@ -13,8 +13,11 @@
   <ItemGroup>
     <PackageReference Include="NSwag.AspNetCore" Version="13.1.3" />
   </ItemGroup>
+  <PropertyGroup>
+    <IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
+  </PropertyGroup>
 
-<PropertyGroup>
+  <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DocumentationFile>bin\WebApi.XML</DocumentationFile>
   </PropertyGroup>

@@ -7,7 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace WebApi.Controllers
 {
-    
+    /// <summary>
+    /// Weather forecast controller
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -18,7 +20,9 @@ namespace WebApi.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
+        /// <summary>
+        /// Initializes an instance of the the object
+        /// </summary>
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;

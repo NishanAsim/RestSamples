@@ -29,8 +29,7 @@ namespace EmployeeManagement
         /// <summary>
         /// List of open tasks assigned to employee
         /// </summary>
-        /// <typeparam name="EmployeeTask"></typeparam>
-        /// <returns></returns>
+       
         public List<EmployeeTask> Tasks { get; } = new List<EmployeeTask>();
     }
 }

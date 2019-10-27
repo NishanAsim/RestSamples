@@ -8,6 +8,6 @@ namespace ArithmeticLib
     {
         public async Task<double> AddNumbers(
             double firstOperand,
-            double secondOperand) => firstOperand + secondOperand;
+            double secondOperand) => (firstOperand + secondOperand);
     }
 }

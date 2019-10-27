@@ -31,8 +31,6 @@
             <summary>
             List of open tasks assigned to employee
             </summary>
-            <typeparam name="EmployeeTask"></typeparam>
-            <returns></returns>
         </member>
         <member name="T:EmployeeManagement.EmployeeOperations">
             <summary>
@@ -43,6 +41,19 @@
             <summary>
             Initializes a new instance of employee management object 
             </summary>
+        </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.GetEmployees">
+            <summary>
+            Gets a list of employee object
+            </summary>
+            <returns>List of employees</returns>
+        </member>
+        <member name="M:EmployeeManagement.EmployeeOperations.GetEmployee(System.String)">
+            <summary>
+            Finds an employee object based on employee id
+            </summary>
+            <param name="employeeId">Employee Id</param>
+            <returns>Gets an Employee object if found, null otherwise </returns>
         </member>
         <member name="T:EmployeeManagement.EmployeeTask">
             <summary>
@@ -60,6 +71,24 @@
             Task description
             </summary>
             <value></value>
+        </member>
+        <member name="T:EmployeeManagement.IEmployeeOperations">
+            <summary>
+            Encapsulates actions on employee objects
+            </summary>
+        </member>
+        <member name="M:EmployeeManagement.IEmployeeOperations.GetEmployee(System.String)">
+            <summary>
+            Finds an employee object based on employee id
+            </summary>
+            <param name="employeeId">Employee Id</param>
+            <returns>Gets an Employee object if found, null otherwise </returns>
+        </member>
+        <member name="M:EmployeeManagement.IEmployeeOperations.GetEmployees">
+            <summary>
+            Gets a list of employee object
+            </summary>
+            <returns>List of employees</returns>
         </member>
     </members>
 </doc>

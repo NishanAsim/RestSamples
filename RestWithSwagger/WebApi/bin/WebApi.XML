@@ -22,24 +22,34 @@
             <param name="secondOperand">The second number</param>
             <returns>Sum of two numbers</returns>
         </member>
-        <member name="T:WebApi.Controllers.EmployeeManagementController">
+        <member name="T:WebApi.Controllers.EmployeeController">
             <summary>
             Perform arithmetic operations
             </summary>
         </member>
-        <member name="M:WebApi.Controllers.EmployeeManagementController.#ctor(EmployeeManagement.IEmployeeOperations)">
+        <member name="M:WebApi.Controllers.EmployeeController.#ctor(EmployeeManagement.IEmployeeOperations)">
             <summary>
             Performs arithmetic operations
             </summary>
         </member>
-        <member name="M:WebApi.Controllers.EmployeeManagementController.Get">
+        <member name="M:WebApi.Controllers.EmployeeController.Get">
             <summary>
             Gets list of all employees
             </summary>
         </member>
-        <member name="M:WebApi.Controllers.EmployeeManagementController.Get(System.String)">
+        <member name="M:WebApi.Controllers.EmployeeController.Get(System.String)">
             <summary>
             Gets details of the employee identified by employee Id
+            </summary>
+        </member>
+        <member name="T:WebApi.Controllers.WeatherForecastController">
+            <summary>
+            Weather forecast controller
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{WebApi.Controllers.WeatherForecastController})">
+            <summary>
+            Initializes an instance of the the object
             </summary>
         </member>
         <member name="M:WebApi.Controllers.WeatherForecastController.Get">
@@ -48,15 +58,80 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:WebApi.Program">
+            <summary>
+            The program class
+            </summary>
+        </member>
+        <member name="M:WebApi.Program.Main(System.String[])">
+            <summary>
+            The main method
+            </summary>
+            <param name="args">Any command line arguments</param>
+        </member>
+        <member name="M:WebApi.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Builds the host
+            </summary>
+            <param name="args"></param>
+            <returns>An instance of IHostBuilder</returns>
+        </member>
+        <member name="T:WebApi.Startup">
+            <summary>
+            The startup class
+            </summary>
+        </member>
+        <member name="M:WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes an instance of the object
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:WebApi.Startup.Configuration">
+            <summary>
+            Reference of the configuration object
+            </summary>
+            <value></value>
+        </member>
         <member name="M:WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             This method gets called by the runtime. Use this method to add services to the container.
             </summary>
             <param name="services"></param>
         </member>
+        <member name="M:WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:WebApi.WeatherForecast">
+            <summary>
+            The weather forecast object
+            </summary>
+        </member>
         <member name="P:WebApi.WeatherForecast.Date">
             <summary>
             Statistics date
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:WebApi.WeatherForecast.TemperatureC">
+            <summary>
+            Temperature in C
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:WebApi.WeatherForecast.TemperatureF">
+            <summary>
+            Temperature in F
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:WebApi.WeatherForecast.Summary">
+            <summary>
+            Summary of data
             </summary>
             <value></value>
         </member>

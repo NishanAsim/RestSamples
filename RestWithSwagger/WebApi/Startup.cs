@@ -15,13 +15,24 @@ using Microsoft.Extensions.Logging;
 
 namespace WebApi
 {
+    /// <summary>
+    /// The startup class
+    /// </summary>
     public class Startup
     {
+        /// <summary>
+        /// Initializes an instance of the object
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
+        /// <summary>
+        /// Reference of the configuration object
+        /// </summary>
+        /// <value></value>
         public IConfiguration Configuration { get; }
 
 
@@ -41,7 +52,13 @@ namespace WebApi
 
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+
+
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

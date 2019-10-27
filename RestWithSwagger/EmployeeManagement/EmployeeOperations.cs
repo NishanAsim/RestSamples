@@ -43,14 +43,22 @@ namespace EmployeeManagement
 
         }
 
+        /// <summary>
+        /// Gets a list of employee object
+        /// </summary>
+        /// <returns>List of employees</returns>
         public async Task<List<Employee>> GetEmployees()
         {
             return employeeList;
         }
-
+        /// <summary>
+        /// Finds an employee object based on employee id
+        /// </summary>
+        /// <param name="employeeId">Employee Id</param>
+        /// <returns>Gets an Employee object if found, null otherwise </returns>
         public async Task<Employee> GetEmployee(string employeeId)
         {
-            return this.employeeList.FirstOrDefault(
+            return  this.employeeList.FirstOrDefault(
                 e => string.Compare(e.Code, employeeId, StringComparison.InvariantCultureIgnoreCase) == 0);
         }
     }

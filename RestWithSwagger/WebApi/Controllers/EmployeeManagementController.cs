@@ -9,19 +9,19 @@ using EmployeeManagement;
 
 namespace WebApi.Controllers
 {
-    
+
     /// <summary>
     /// Perform arithmetic operations
     /// </summary>
     [ApiController]
     [Route("[controller]")]
-    public class EmployeeManagementController : ControllerBase
+    public class EmployeeController : ControllerBase
     {
-       
- /// <summary>
- /// Performs arithmetic operations
- /// </summary>
-      public  EmployeeManagementController(IEmployeeOperations operations)
+
+        /// <summary>
+        /// Performs arithmetic operations
+        /// </summary>
+        public EmployeeController(IEmployeeOperations operations)
         {
             Operations = operations ?? throw new ArgumentNullException(nameof(operations));
         }
@@ -37,14 +37,24 @@ namespace WebApi.Controllers
             return await Operations.GetEmployees().ConfigureAwait(false);
         }
 
-         /// <summary>
+        /// <summary>
         /// Gets details of the employee identified by employee Id
         /// </summary>
-        [HttpGet(@"[action]/Id/{employeeId}")]
+        [HttpGet(@"/Id/{employeeId}")]
+        [ApiConventionMethod(typeof(DefaultApiConventions),
+                     nameof(DefaultApiConventions.Get))]
         public async Task<ActionResult<Employee>> Get(string employeeId)
         {
-            return await Operations.GetEmployee(employeeId).ConfigureAwait(false);
+            var result = await Operations.GetEmployee(employeeId).ConfigureAwait(false);
+            if (result == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return result;
+            }
         }
-        
+
     }
 }
