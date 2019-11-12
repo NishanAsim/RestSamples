@@ -1,0 +1,12 @@
+services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.WithOrigins("http://localhost:5001/Employee")
+                     .SetIsOriginAllowed((host) => true)
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials());
+            });
+
+
+ app.UseCors("CorsPolicy");
