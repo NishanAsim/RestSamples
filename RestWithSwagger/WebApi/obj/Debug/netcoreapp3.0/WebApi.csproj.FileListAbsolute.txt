@@ -36,3 +36,41 @@ D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.csproj.CopyComplete
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.dll
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.pdb
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\appsettings.Development.json
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\appsettings.json
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\WebApi.exe
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\WebApi.deps.json
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\WebApi.runtimeconfig.json
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\WebApi.runtimeconfig.dev.json
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\WebApi.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\WebApi.pdb
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\WebApi.XML
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\Microsoft.DotNet.InternalAbstractions.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.PlatformAbstractions.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\Namotion.Reflection.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NJsonSchema.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.Annotations.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.AspNetCore.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.Core.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.Generation.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\NSwag.Generation.AspNetCore.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\ArithmeticLib.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\EmployeeManagement.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\ArithmeticLib.pdb
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\EmployeeManagement.pdb
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\bin\Debug\netcoreapp3.0\EmployeeManagement.xml
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.csprojAssemblyReference.cache
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\staticwebassets\WebApi.StaticWebAssets.xml
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.AssemblyInfoInputs.cache
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.AssemblyInfo.cs
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.RazorTargetAssemblyInfo.cache
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.csproj.CopyComplete
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.dll
+d:\Code\GitHubPublic\RestSamples\RestWithSwagger\WebApi\obj\Debug\netcoreapp3.0\WebApi.pdb

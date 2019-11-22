@@ -6,3 +6,11 @@ D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\ArithmeticLib\obj\Debug\nets
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.dll
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.pdb
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.csprojAssemblyReference.cache
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\bin\Debug\netstandard2.0\ArithmeticLib.deps.json
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\bin\Debug\netstandard2.0\ArithmeticLib.dll
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\bin\Debug\netstandard2.0\ArithmeticLib.pdb
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.csprojAssemblyReference.cache
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.AssemblyInfoInputs.cache
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.AssemblyInfo.cs
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.dll
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\ArithmeticLib\obj\Debug\netstandard2.0\ArithmeticLib.pdb

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj",
+      "projectUniqueName": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj",
       "projectName": "ArithmeticLib",
-      "projectPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj",
+      "projectPath": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj",
       "packagesPath": "C:\\Users\\Nishan\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\obj\\",
+      "outputPath": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\ArithmeticLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nishan\\AppData\\Roaming\\NuGet\\NuGet.Config"

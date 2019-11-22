@@ -44,7 +44,17 @@ namespace WebApi
         {
             services.AddControllers();
             // Register the Swagger services
-            services.AddSwaggerDocument();
+            services.AddOpenApiDocument();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.WithOrigins("http://localhost:5001/Employee")
+                     .SetIsOriginAllowed((host) => true)
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials());
+            });
+
 
             // Add dependencies
             services.AddSingleton<IArithmeticOperations, ArithmeticOperations>();
@@ -66,6 +76,7 @@ namespace WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
 
             app.UseRouting();

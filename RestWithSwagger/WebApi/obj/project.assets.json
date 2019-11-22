@@ -5981,11 +5981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\Nishan\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\WebApi\\obj\\",
+      "outputPath": "D:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nishan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5999,11 +5999,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj": {
-              "projectPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj"
+            "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj": {
+              "projectPath": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\ArithmeticLib\\ArithmeticLib.csproj"
             },
-            "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj": {
-              "projectPath": "d:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj"
+            "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj": {
+              "projectPath": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj"
             }
           }
         }

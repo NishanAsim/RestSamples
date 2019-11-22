@@ -115,11 +115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectUniqueName": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj",
       "projectName": "EmployeeManagement",
-      "projectPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectPath": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\EmployeeManagement\\EmployeeManagement.csproj",
       "packagesPath": "C:\\Users\\Nishan\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\GitHubPublic\\REST Api Tests\\RestWithSwagger\\EmployeeManagement\\obj\\",
+      "outputPath": "d:\\Code\\GitHubPublic\\RestSamples\\RestWithSwagger\\EmployeeManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nishan\\AppData\\Roaming\\NuGet\\NuGet.Config"

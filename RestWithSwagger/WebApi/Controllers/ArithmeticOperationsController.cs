@@ -38,6 +38,18 @@ namespace WebApi.Controllers
         {
             return await Operations.AddNumbers(firstOperand, secondOperand).ConfigureAwait(false);
         }
+
+        /// <summary>
+        /// Calculate sum of two numbers
+        /// </summary>
+        /// <param name="firstOperand">The first number</param>
+        /// <param name="secondOperand">The second number</param>
+        /// <returns>Sum of two numbers</returns>
+        [HttpGet(@"[action]/{firstOperand}/{secondOperand}")]
+        public async Task<ActionResult<double>> Sum(double firstOperand, double secondOperand)
+        {
+            return await Operations.AddNumbers(firstOperand, secondOperand).ConfigureAwait(false);
+        }
         
     }
 }

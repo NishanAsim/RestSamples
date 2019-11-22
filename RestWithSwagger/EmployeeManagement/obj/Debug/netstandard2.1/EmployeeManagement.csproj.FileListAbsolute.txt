@@ -7,3 +7,12 @@ D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\EmployeeManagement\obj\Debug
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.AssemblyInfo.cs
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.dll
 D:\Code\GitHubPublic\REST Api Tests\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.pdb
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\bin\Debug\netstandard2.1\EmployeeManagement.deps.json
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\bin\Debug\netstandard2.1\EmployeeManagement.dll
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\bin\Debug\netstandard2.1\EmployeeManagement.pdb
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\bin\Debug\netstandard2.1\EmployeeManagement.XML
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.csprojAssemblyReference.cache
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.AssemblyInfoInputs.cache
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.AssemblyInfo.cs
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.dll
+D:\Code\GitHubPublic\RestSamples\RestWithSwagger\EmployeeManagement\obj\Debug\netstandard2.1\EmployeeManagement.pdb

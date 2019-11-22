@@ -22,6 +22,14 @@
             <param name="secondOperand">The second number</param>
             <returns>Sum of two numbers</returns>
         </member>
+        <member name="M:WebApi.Controllers.ArithmeticOperationsController.Sum(System.Double,System.Double)">
+            <summary>
+            Calculate sum of two numbers
+            </summary>
+            <param name="firstOperand">The first number</param>
+            <param name="secondOperand">The second number</param>
+            <returns>Sum of two numbers</returns>
+        </member>
         <member name="T:WebApi.Controllers.EmployeeController">
             <summary>
             Perform arithmetic operations
