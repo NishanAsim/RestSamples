@@ -1,0 +1,97 @@
+<mat-nav-list >
+  <mat-list-item *ngFor="let d of data" (click)="openModal(template)">
+  <!-- <a href="..." mat-list-item (click)="openLink($event)">
+    <span mat-line>d.nSummary</span>
+    <span mat-line>d.nDetails</span>
+  </a> -->
+  <h3 matLine> {{d.nName}} </h3>
+    <p matLine>
+      <span> {{d.nSummary}} </span>
+      <span class="demo-2"> -- {{d.nType}} </span>
+   </p>
+  <a matLine href="...">{{ d.nReferences }}</a>
+     <button mat-icon-button (click)="deleteNotifi(d)">
+        <mat-icon>close</mat-icon>
+     </button>
+</mat-list-item>
+</mat-nav-list>
+<!-- <mat-nav-list>
+        <a href="https://keep.google.com/" mat-list-item (click)="openLink($event)">
+          <span mat-line>Google Keep</span>
+          <span mat-line>Add to a note</span>
+        </a>
+      
+        <a href="https://docs.google.com/" mat-list-item (click)="openLink($event)">
+          <span mat-line>Google Docs</span>
+          <span mat-line>Embed in a document</span>
+        </a>
+      
+        <a href="https://plus.google.com/" mat-list-item (click)="openLink($event)">
+          <span mat-line>Google Plus</span>
+          <span mat-line>Share with your friends</span>
+        </a>
+      
+        <a href="https://hangouts.google.com/" mat-list-item (click)="openLink($event)">
+          <span mat-line>Google Hangouts</span>
+          <span mat-line>Show to your coworkers</span>
+        </a>
+</mat-nav-list> -->
+
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Notification Modal</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body col-sm-12">
+      <ul class="list-group">
+      <li *ngFor="let item of data">
+        <div>
+            <div>
+              Notification Name:-
+              <div >
+                  {{item.nName}}
+              </div>
+            </div>
+          
+          <div>
+              Notification Summary:-
+              <div>
+                  {{item.nSummary}}
+              </div>
+          </div>
+        </div>
+        <div>
+            <div>
+              Notification References:-
+              <div >
+                  <a href="{{item.nReferences}}" target="_blank">{{item.nReferences}}</a>
+              </div>
+            </div>
+          
+          <div>
+              Notification Details:-
+              <div>
+                  {{item.nDetails}}
+              </div>
+          </div>
+        </div>
+        <div>
+            <div>
+              Created On:-
+              <div >
+                  {{item.nCreatedOn}}
+              </div>
+            </div>
+          <div>
+              Expires On:-
+              <div >
+                 {{item.nExpiresOn}}
+              </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</ng-template>

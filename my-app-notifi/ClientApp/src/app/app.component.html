@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<section class="header-border">
+			<header class="header">
+				<article class="container">
+					<div class="header-left">
+						<p class="header-title">
+							<a>Howrah Municipal Corporation</a>
+						</p>
+					</div>
+					<div class="header-right">
+						<ul class="header-ul">
+							<li><i class="fa fa-phone"></i> +91-8087664033</li>
+							<li><i class="fa fa-envelope"></i> <a href="#">nishant.prasad@nishansspl.com</a></li>
+						</ul>
+						
+						<nav>
+							<ul class="header-ul">
+								<li>
+                  <button type="button" class="btn btn-primary">
+                    Home
+                  </button>
+								<li>
+                  <button type="button" routerLink="/tree" class="btn btn-primary">
+                    Tree
+                  </button>
+								<li>
+                    <button type="button" class="btn btn-primary">
+                     Teachers
+                    </button>
+                <li> 
+                    <button type="button" class="btn btn-primary">
+                     Blog
+                    </button>
+                <li>
+                    <!-- <button type="button" class="btn btn-primary" (click)="openModal(template)"> -->
+                        <button type="button"  class="btn btn-primary"  mat-button (click)="drawer.toggle()">
+                         Notification <span class="badge badge-light">{{notificationMessages.length}}</span>
+                        <span class="sr-only">unread messages</span>
+                    </button>
+                </li>
+							</ul>
+						</nav>
+					</div>
+				</article>
+			</header>
+</section>
+    <div style="height:30px;margin-top: 43px;"></div>
+    <mat-drawer-container class="example-container">
+      <mat-drawer #drawer class="example-sidenav" mode="side" position="end">
+          <div class="example-button-row">
+              
+              <button mat-mini-fab matTooltip="Alert" color="warn" (click)="filterAlert(1)">
+                <mat-icon>add_alert</mat-icon>
+              </button>
+              <button mat-mini-fab matTooltip="Notification" (click)="filterAlert(2)" color="primary">
+                  <mat-icon>notification_important</mat-icon>
+                </button>
+              <button mat-mini-fab matTooltip="warning" (click)="filterAlert(3)" style="color:black;background-color:rgb(251, 255, 0);">
+                <mat-icon>warning</mat-icon>
+              </button>
+        </div>
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let n of nfMessages" (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  {{n.nName}}
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p>{{n.nSummary}} 
+                <button mat-icon-button (click)="deleteNotifi(n)">
+                  <mat-icon>clear</mat-icon>
+               </button></p>
+            </mat-expansion-panel>
+          </mat-accordion>
+      </mat-drawer>
+    </mat-drawer-container>
+    <router-outlet></router-outlet>
+		<!-- FOOTER --> 
+<footer class="footer">
+  <div class="container-fluid footer-p">
+    <div class="row">
+      <div class="col-md-12">
+        <p>
+          © 2016 - _ANGEL MOKUS & CINNOVA.NET. Todos los derechos reservados
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
