@@ -1,0 +1,161 @@
+<mat-card class="p-0">
+    <mat-card-title class="">
+        <div class="card-title-text">Form validation</div>
+        <mat-divider></mat-divider>
+    </mat-card-title>
+    <mat-card-content>
+        <form [formGroup]="addressForm">
+            <div fxLayout="row wrap">
+                <div fxFlex="100" fxFlex.gt-xs="50" class="pr-1">
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <input
+                            matInput
+                            name="username"
+                            formControlName="username"
+                            placeholder="Username (Min Length: 4, Max Length: 9)"
+                            value="">
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['username'].hasError('minlength') && addressForm.controls['username'].touched" 
+                        class="form-error-msg"> Username require at least {{addressForm.controls['username'].errors.minlength.requiredLength}} characters </small>
+                        <small 
+                        *ngIf="addressForm.controls['username'].hasError('maxlength') && addressForm.controls['username'].touched" 
+                        class="form-error-msg"> Username can not contain more than {{addressForm.controls['username'].errors.maxlength.requiredLength}} characters </small>
+                    </div>
+
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <input
+                            matInput
+                            name="firstname"
+                            formControlName="firstname"
+                            placeholder="First name"
+                            value="">
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['firstname'].hasError('required') && addressForm.controls['firstname'].touched" 
+                        class="form-error-msg">First name is required </small>
+                    </div>
+
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                        <input
+                            matInput
+                            type="email"
+                            name="email"
+                            formControlName="email"
+                            placeholder="Your Email"
+                            value="">
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['email'].hasError('required') && addressForm.controls['email'].touched" 
+                        class="form-error-msg"> Email is required </small>
+                        <small 
+                        *ngIf="addressForm.controls['email'].hasError('email') && addressForm.controls['email'].touched" 
+                        class="form-error-msg"> Invaild email address </small>
+                    </div>
+
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <mat-select name="country" formControlName="country" placeholder="Country" (change)="OnCountriesChange($event)">
+                                <mat-option *ngFor="let cntry of listCountries" [value]="cntry.code">
+                                  {{cntry.name}}
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['country'].hasError('required') && addressForm.controls['country'].touched" 
+                        class="form-error-msg">Country is required </small>
+                    </div>
+
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <mat-select name="states" formControlName="states" placeholder="States">
+                                <mat-option *ngFor="let stst of listStates" [value]="stst.code">
+                                  {{stst.name}}
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['states'].hasError('required') && addressForm.controls['states'].touched" 
+                        class="form-error-msg">State is required </small>
+                    </div>
+                </div>
+
+                <div fxFlex="100" fxFlex.gt-xs="50">
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <input 
+                            matInput
+                            name="city"
+                            formControlName="city"
+                            placeholder="City">
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['city'].hasError('required') && addressForm.controls['city'].touched" 
+                        class="form-error-msg"> City is required </small>
+                    </div>
+
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <input 
+                            matInput
+                            name="phone"
+                            formControlName="phone"
+                            placeholder="Phone number">
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['phone'].hasError('phone') && addressForm.controls['phone'].touched" 
+                        class="form-error-msg"> Invaild phone number </small>
+                    </div>
+
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <textarea matInput name="houseno" placeholder="Flat / House No. / Floor / Building" value=""></textarea>
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['houseno'].hasError('required') && addressForm.controls['houseno'].touched" 
+                        class="form-error-msg">House No is required</small>
+                    </div>
+
+                    <div class="pb-1">
+                        <mat-form-field class="full-width">
+                            <textarea matInput name="street" placeholder="Colony / Street / Locality" value=""></textarea>
+                        </mat-form-field>
+                        <small 
+                        *ngIf="addressForm.controls['street'].hasError('required') && addressForm.controls['street'].touched" 
+                        class="form-error-msg">Street is required</small>
+                    </div>
+
+
+                    <div class="pb-1">
+                        <Label>Gender*</Label>
+                        <mat-radio-group 
+                        name="gender" 
+                        formControlName="gender">
+                            <mat-radio-button value="male">Male</mat-radio-button>
+                            <mat-radio-button value="female">Female</mat-radio-button>
+                        </mat-radio-group>
+                    </div>
+                    
+                    <!-- <div class="pb-1 pt-05">
+                        <mat-checkbox
+                        name="agreed"
+                        formControlName="agreed" 
+                        class="pb-1">I have read and agree to the terms of service.</mat-checkbox>
+
+                        <small 
+                            *ngIf="addressForm.controls['agreed'].hasError('agreed') && addressForm.controls['agreed'].touched" 
+                            class="form-error-msg"> You must agree to the terms and conditions </small>
+                    </div> -->
+                </div>
+            </div>
+            <button 
+            mat-raised-button 
+            color="primary" 
+            [disabled]="addressForm.invalid">Submit</button>
+        </form>
+    </mat-card-content>
+</mat-card>
+
