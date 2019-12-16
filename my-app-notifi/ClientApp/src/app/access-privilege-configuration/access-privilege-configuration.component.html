@@ -1,0 +1,30 @@
+<div>
+    <table>
+        <tr>
+            <td>
+                <span [ngSwitch]="userAccessItem?.accessDataTypeId">
+                    <p *ngSwitchCase="1">
+                        <input type="checkbox" name="accessYn" value="Y">{{userAccessItem.description}}<br>
+                    </p>
+                    <p *ngSwitchCase="2">
+                        <input name="NumericValue" value="">{{userAccessItem.description}}<br>
+                    </p>
+                    <p *ngSwitchCase="3">
+                        <span *ngIf="getListDataType(userAccessItem?.accessId)">
+                            <select>
+                                <option *ngFor="let listItem of getListDataType(userAccessItem?.accessId)"
+                                    [value]="listItem.value">
+                                    {{listItem.description}}
+                                </option> 
+                            </select>
+                        </span>
+                    </p>
+                    <p *ngSwitchDefault>
+                        Unknown
+                    </p>
+                </span>
+            </td>
+            <td *ngIf="userAccessItem?.defaultJson"> json : <input value="{{userAccessItem.defaultJson}}" /></td>
+        </tr>
+    </table>
+</div>
