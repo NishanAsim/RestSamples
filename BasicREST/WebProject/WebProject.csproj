@@ -6,7 +6,7 @@
     <ProjectReference Include="..\BasicLibrary\BasicLibrary.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="NSwag.ApiDescription.Client" Version="13.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
